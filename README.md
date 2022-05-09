@@ -25,7 +25,7 @@ Per-Lab Setup
 
 This will download Lab 1 locally, allowing you to work on your scripts and upload (push) them back up to GitHub.
 
- 5. Clone your lab repository into your ~/ops435/lab1 directory using SSH:
+ 5. Clone your lab repository into your ~/ops445/lab1 directory using SSH:
 
     git clone git@github.com:OPS445-S22/lab1-yourgithubusername.git ~/ops445/lab1/
     cp ~/old_ops445/lab1/lab1?.py ~/ops445/lab1/ #ONLY IF YOU HAVE CREATED PYTHON FILES 
@@ -34,7 +34,7 @@ Submission (if the lab is completed)
 
 6. Run the checking script. Make sure you identify and correct any and all errors in your scripts:
 
-    cd ~/ops435/lab1/
+    cd ~/ops445/lab1/
     pwd #confirm that you are in the right directory
     python3 ./CheckLab1.py -f -v
 
