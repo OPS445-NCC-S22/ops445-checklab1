@@ -302,7 +302,7 @@ def displayReportHeader():
     report_heading = 'OPS435 Lab Report - System Information for running '+sys.argv[0]
     print(report_heading)
     print(len(report_heading) * '=')
-    print('    User login name:', os.getlogin())
+    #print('    User login name:', os.getlogin())
     print('    Linux system name:', socket.gethostname())
     print('    Linux system version:',os.popen('cat /etc/redhat-release').read().strip())
     print('    Python executable:',sys.executable)
